@@ -1,7 +1,7 @@
 shared:
   image: node:12
   steps:
-    - echo: sleep 22; echo hi
+    - echo: sleep 22; echo1 hi
 jobs:
   external_fork:
     requires: [~sd@1:main]
